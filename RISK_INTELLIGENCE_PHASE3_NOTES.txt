@@ -1,0 +1,16 @@
+RiskOpt Phase 3 — Risk Intelligence (wired)
+
+Built from the stable Phase 2 report-export baseline.
+
+What is wired:
+1. Website assessment remains passive and evidence-based.
+2. Observed findings are passed through lib/risk-interpreter.ts.
+3. The interpreter translates findings into business-language risks and maps them to existing controls.
+4. Website scan results now show a visible RiskOpt Intelligence section before budget selection.
+5. When the user creates the website-based organization, the interpreted risks are stored in the organization model so Risk Explorer / Overview / Optimizer can use them.
+
+What is intentionally NOT added yet:
+- No external LLM/API key.
+- No exploit execution or intrusive scanning.
+- No redesign of existing product sections.
+- No changes to the working report export implementation.

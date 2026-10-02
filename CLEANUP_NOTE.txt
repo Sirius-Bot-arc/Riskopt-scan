@@ -1,0 +1,7 @@
+RiskOpt demo cleanup copy
+
+Removed redundant duplicate frontend copies and the older 'risk-opt 1 v0' copy.
+Kept the internally consistent Next.js frontend and the backend folder.
+
+IMPORTANT: This is a CLEAN COPY. It does not change GitHub, Vercel, Render, or Supabase.
+Use this copy for local inspection/development. Keep the currently deployed demo untouched until tomorrow's presentation is over.

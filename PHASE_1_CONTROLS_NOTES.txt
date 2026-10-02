@@ -1,0 +1,20 @@
+RiskOpt — Phase 1 Control Catalogue Test Build
+
+What changed
+1. Expanded the local security-control catalogue with additional controls covering identity, vulnerability management, monitoring, email, network, application, data, resilience, cloud and third-party risk.
+2. Added a visible "Risk-aligned recommendations" section to Security Controls. It maps controls to the organization's highest-scoring risks before the budget optimizer runs.
+3. Expanded recommendations for custom organizations created through Add Organization as well.
+4. Improved the notification badge so unread counts remain visible.
+5. This local test build runs the existing deterministic optimizer directly against the expanded local catalogue. This is intentional for this phase so control experiments do not depend on the deployed Render backend.
+
+Important
+- This is a SAFE TEST COPY. Do not push this copy to the production GitHub/Vercel/Render project yet.
+- The deployed Render backend has NOT been changed by this ZIP.
+- The next validation is to compare budgets such as 8L, 15L, 19L, 22L and 26L and check whether selected controls, capital deployed and projected risk change as the budget increases.
+- If budget changes still produce the same plan after the catalogue expansion, the next step is to inspect optimizer constraints rather than adding more controls blindly.
+
+Run
+1. Open the inner `riskopt` folder in VS Code.
+2. Run: npm.cmd install
+3. Run: npm.cmd run dev
+4. Open http://localhost:3000

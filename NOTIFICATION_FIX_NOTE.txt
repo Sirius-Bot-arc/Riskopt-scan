@@ -1,0 +1,1 @@
+Notification fix: removed only button[aria-label] from the global overflow:hidden micro-interaction rule. The notification button uses aria-label and its badge was being clipped. No other notification positioning, z-index, button behavior, or component code was changed.

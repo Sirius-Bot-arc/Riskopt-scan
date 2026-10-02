@@ -1,0 +1,15 @@
+RiskOpt UI Refinement
+=====================
+
+This version keeps the existing RiskOpt product flow and core components intact.
+The changes are presentation/UI-focused:
+
+- Added light/dark mode toggle in the top bar.
+- Dark mode uses a serious cyber-security night aesthetic with subtle stars, deep navy, purple/blue/green accents, and restrained glow.
+- Light mode keeps the existing soft pastel/glass look.
+- Kept the Overview slogan: "See the risk. Shape the outcome."
+- Added restrained hover/glow micro-interactions to buttons, navigation, optimizer/objective cards, search/theme controls, and other clickable UI elements.
+- Preserved optimizer, Risk Explorer, Security Controls, Reports, organization logic, data, and backend files.
+- Theme preference is stored locally in the browser as "riskopt-theme".
+
+No GitHub, Vercel, Render, or Supabase configuration is included/changed by this UI-only refinement.

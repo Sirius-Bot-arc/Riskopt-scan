@@ -1,0 +1,20 @@
+REPORT EXPORT UPDATE
+
+The Reports page now supports real client-side downloads using the current RiskOpt state.
+
+PDF:
+- Generates a standalone A4 PDF in the browser.
+- Includes only the sections selected in the UI.
+- Includes organization, risk posture, exposure, budget, risks, optimizer controls, and trend data.
+- Does not require a backend or external PDF service.
+
+CSV:
+- Downloads the selected report data as a CSV file.
+
+Print:
+- Opens the browser print flow.
+
+Email:
+- Opens the user's default mail client with a populated RiskOpt summary.
+
+No existing optimizer, notification, organization, or backend behavior was changed for this update.
